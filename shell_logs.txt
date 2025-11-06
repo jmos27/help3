@@ -1,0 +1,500 @@
+   26  make test_week2
+   27  make test_week3
+   28  bin/ci -i/u/jaylenmo/ci-lab-jmos27/testcases/week3/lsl_rand.s
+   29  bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week3/lsl_rand.s
+   30  make all
+   31  make test_week3
+   32  make test_week3
+   33  make all
+   34  make all
+   35  make all
+   36  make all
+   37  make test_week3
+   38  make all
+   39  make test_week3
+   40  bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week3/hello_world.s
+   41  make all
+   42  make test_week3
+   43  bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week3/hello_world.s
+   44  make all
+   45  make all
+   46  make all
+   47  make all
+   48  make test_week3
+   49  bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week3/hello_world.s
+   50  make clean
+   51  make all
+   52  make test_week3
+   53  make all
+   54  make all
+   55  make all
+   56  make all
+   57  make clean
+   58  bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week3/hello_world.s
+   59  bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week3/hello_world.s
+   60  bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week3/hello_world.s
+   61  make all
+   62  bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week3/hello_world.s
+   63  make all
+   64  bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week3/hello_world.s
+   65  make clean
+   66  make all
+   67  make test_week3
+   68  make all
+   69  make all
+   70  make all
+   71  make all
+   72  make all
+   73  make all
+   74  bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week3/memory_store.s
+   75  make test_week3
+   76  make all
+   77  make clean
+   78  make all
+   79  make test_week3
+   80  bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week3/load_store.s
+   81  bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week3/load_store.s
+   82  make test_week3
+   83  make all
+   84  make test_week3
+   85  bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week3/load_store.s
+   86  make all
+   87  make test_week3
+   88  bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week3/lsl_rand.s
+   89  make test_week3
+   90  make test_week3
+   91  bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week3/lsr_rand.s
+   92  make test_week3
+   93  make clean
+   94  make all
+   95  make test_week3
+   96  git commit 
+   97  git push
+   98  make test_week3
+   99  make all
+  100  make test_week4
+  101  make test_week4
+  102  make test_week4
+  103  make test_week4
+  104  make all
+  105  make all
+  106  make test_week4
+  107  bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week4/b.ge.s
+  108  make test_week4
+  109  bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week4/b.ge.s
+  110  make clean
+  111  bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week4/b.ge.s
+  112  make all
+  113  bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week4/b.ge.s
+  114  bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week4/b.ge.s
+  115  make clean
+  116  make all
+  117  make debug
+  118  make clean
+  119  make debug
+  120  gdb --args bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week4/b.ge.s
+  121  gdb --args bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week4/b.ge.s
+  122  make clean 
+  123  ls -l bin/ci
+  124  make all
+  125  ls -l bin/ci
+  126  gdb --args bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week4/b.eq.s
+  127  make clean
+  128  make all
+  129  make debug
+  130  make clean
+  131  make debug
+  132  gdb --args bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week4/b.ge.s
+  133  make clean
+  134  make debug
+  135  gdb --args bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week4/b.ge.s
+  136  make clean
+  137  make all
+  138  bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week4/b.ge.s
+  139  make test_week4
+  140  bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week4/b.eq_err.s
+  141  bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week4/b.gt_err.s
+  142  make clean
+  143  make all
+  144  bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week4/b.gt_err.s
+  145  make test_week4
+  146  make clean 
+  147  make all
+  148  make test_week4
+  149  bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week4/branch_not_taken.s
+  150  make all
+  151  make all
+  152  make test_week4
+  153  bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week4/b.cond.s
+  154  make clean
+  155  make all
+  156  make test_week4
+  157  bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week4/sqrt.s
+  158  bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week4/fib_iterative.s
+  159  make clean
+  160  make debug 
+  161  gdb --args bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week4/fib_iterative.s
+  162  make clean
+  163  make debug
+  164  gdb --args bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week4/fib_iterative.s
+  165  make clean
+  166  gdb --args bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week4/fib_iterative.s
+  167  make clean\
+  168  make clean
+  169  make debug
+  170  gdb --args bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week4/fib_iterative.s
+  171  make clean
+  172  make debug
+  173  gdb --args bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week4/fib_iterative.s
+  174  make clean
+  175  make all
+  176  bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week4/fib_recursive.s
+  177  make test_week4
+  178  bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week4/sqrt.s
+  179  bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week4/sqrt.s
+  180  make clean
+  181  make all
+  182  make clean\
+  183  make clean
+  184  make all
+  185  bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week4/sqrt.s
+  186  make test_week4
+  187  make clean
+  188  make all
+  189  make all
+  190  make test_week4
+  191  make all
+  192  make test_week4
+  193  valgrind ./bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week4/b.cond.s
+  194  make clean
+  195  make all
+  196  valgrind ./bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week4/b.cond.s
+  197  make test_week4
+  198  valgrind ./bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week4/call_err2.s
+  199  valgrind ./bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week4/call_err2.s
+  200  make clean
+  201  make all
+  202  valgrind ./bin/ci -i /u/jaylenmo/ci-lab-jmos27/testcases/week4/call_err2.s
+  203  make test_week4
+  204  make all
+  205  make all
+  206  make all
+  207  make all
+  208  make all
+  209  make all
+  210  ./bump_test
+  211  make debug
+  212  gdb ./bump_test
+  213  make all
+  214  python3 driver.py -w1
+  215  make all
+  216  make clean
+  217  make all
+  218  python3 driver.py -w1
+  219  make all
+  220  ./runner -f traces/short1.rep
+  221  ./runner traces/short1.rep
+  222  ./runner traces/week1/short1.rep
+  223  make clean
+  224  make all
+  225  ./runner -r -v -c traces/week1/short1.rep
+  226  ./runner -r -v -c traces/week1/short1.rep
+  227  make clean
+  228  make all
+  229  ./runner -r -v -c traces/week1/short1.rep
+  230  make clean
+  231  make all
+  232  ./runner -r -c traces/week1/short1.rep
+  233  ./runner -r -c traces/week1/short1.rep
+  234  make clean
+  235  make all
+  236  ./runner -r -c traces/week1/short1.rep
+  237  ./runner -r -c traces/week1/short2.rep
+  238  ./runner -r -c traces/week1/short2.rep
+  239  ./runner -r -c traces/week1/short2.rep
+  240  make clean
+  241  make all
+  242  ./runner -r -c traces/week1/short2.rep
+  243  make debug
+  244  gdb ./runner
+  245  make clean
+  246  make all
+  247  ./runner -r -c traces/week1/short1.rep
+  248  ./runner -r -c traces/week1/short1.rep
+  249  make clean
+  250  make all
+  251  ./runner -r -c traces/week1/short1.rep
+  252  python3 driver.py -w1
+  253  ./runner -r -c traces/week1/short2.rep
+  254  make clean
+  255  make all
+  256  ./runner -r -c traces/week1/short2-bal.rep
+  257  make clean
+  258  make all
+  259  ./runner -r -c traces/week1/short2-bal.rep
+  260  ./runner -r -c traces/week1/short2-bal.rep
+  261  make debug
+  262  gdb ./runner
+  263  gcc -Wall -g -o test test.c umalloc.c csbrk.o
+  264  ./test
+  265  make debug
+  266  gdb ./runner
+  267  make debug
+  268  ./runner -r -c traces/week1/short2.rep
+  269  make debug
+  270  ./runner -r -c traces/week1/short2.rep
+  271  gdb ./runner
+  272  make debug
+  273  gdb ./runner
+  274  make clean
+  275  make debug
+  276  gdb ./runner
+  277  make clean 
+  278  make debug
+  279  gdb ./runner
+  280  make clean
+  281  make all
+  282  make debug
+  283  gdb ./runner
+  284  make clean
+  285  make all
+  286  make debug
+  287  gdb ./runner
+  288  make clean
+  289  make
+  290  make debug
+  291  gdb ./runner
+  292  make clean
+  293  make debug
+  294  gdb ./runner
+  295  make clean
+  296  make 
+  297  make debug
+  298  gdb --args ./runner -r -c traces/week1/short2.rep
+  299  make clean
+  300  make 
+  301  make debug
+  302  gdb ./runner
+  303  make clean
+  304  make all
+  305  make debug
+  306  gdb ./runner
+  307  make clean
+  308  make all
+  309  ./runner /u/jaylenmo/mm-lab-jmos27/traces/week1/short1.rep
+  310  make clean 
+  311  make
+  312  make debug
+  313  gdb ./runner
+  314  make clean
+  315  make
+  316  python3 driver.py -w1
+  317  make clean
+  318  python3 driver.py -w1
+  319  python3 driver.py -w1
+  320  python3 driver.py -w1
+  321  python3 driver.py -w1
+  322  python3 driver.py -w1
+  323  python3 driver.py -w1
+  324  python3 driver.py -w1
+  325  python3 driver.py -w1
+  326  ./runner traces/week1/short1.rep
+  327  make clean
+  328  make 
+  329  /u/jaylenmo/mm-lab-jmos27/traces/week1/short1.rep
+  330  /u/jaylenmo/mm-lab-jmos27/traces/week1/short1.rep
+  331  ./runner /u/jaylenmo/mm-lab-jmos27/traces/week1/short1.rep
+  332  make debug
+  333  gdb ./runner
+  334  python3 driver.py -w1
+  335  make clean
+  336  make debug
+  337  gdb ./runner
+  338  python3 driver.py -w1
+  339  python3 driver.py -w1
+  340  gdb
+  341  make debug
+  342  gdb ./runner
+  343  make clean
+  344  make 
+  345  python3 driver.py -w1
+  346  make clean 
+  347  make
+  348  python3 driver.py -w1
+  349  make clean 
+  350  make
+  351  mae
+  352  make
+  353  make
+  354  python3 driver.py -w1
+  355  python3 driver.py -w2
+  356  make clean 
+  357  python3 driver.py -w2
+  358  make clean
+  359  make
+  360  python3 driver.py -w2
+  361  python3 driver.py -w2
+  362  python3 driver.py -w1
+  363  python3 driver.py -w2
+  364  make clean
+  365  make 
+  366  python3 driver.py -w2
+  367  pwd
+  368  cd
+  369  make
+  370  trex
+  371  make trex
+  372  strgo
+  373  make stego
+  374  gdb testcases/all_new.c
+  375  q
+  376  make clean 
+  377  make trex
+  378  ./orderlogs testcases/all_new.s
+  379  raptor
+  380  ./orderlogs testcases
+  381  make trike 
+  382  gdb 
+  383  trex
+  384  make trex
+  385  ./orderlogs
+  386  orderlogs
+  387  orderlogs
+  388  pwd
+  389  ./orderlogs
+  390  make trike
+  391  cd
+  392  ls
+  393  rm -r
+  394  rm -r shared-repo-version-a-jmos27/
+  395  pwd
+  396  make
+  397  ls
+  398  mastery-version-master
+  399  cd mastery-version-b-master
+  400  pwed
+  401  pwd
+  402  make
+  403  ./mini_ci
+  404  ./mini_ci testcases/basic_add.s
+  405  make check
+  406  make clean
+  407  make debug
+  408  gdb mini_ci
+  409  make
+  410  make
+  411  test-hw
+  412  test_hw
+  413  bin/test-hw
+  414  make clean
+  415  make
+  416  bin/test-hw
+  417  make
+  418  bin/test-hw
+  419  bin/test-hw
+  420  make clean
+  421  make
+  422  bin/test-hw
+  423  bin/test-hw -a
+  424  bin/test-hw 
+  425  make clean
+  426  make week1
+  427  bin/test-hw
+  428  bin/test-hw -h
+  429  bin/test-hw -v
+  430  bin/test-hw -v 2
+  431  bin/test-hw -v 1
+  432  mkae clean
+  433  make clean
+  434  make week1
+  435  bin/test-hw
+  436  bin/test-hw -h
+  437  bin/test-hw
+  438  ls
+  439  make 
+  440  make trex
+  441  trex
+  442  make trex
+  443  make
+  444  make trike
+  445  ls
+  446  pwd
+  447  ls
+  448  git clone https://github.com/jmos27/help3.git
+  449  ls
+  450  cd help3
+  451  cd help3
+  452  ls
+  453  cd help3
+  454  make trex
+  455  git clone https://github.com/jmos27/help3.git
+  456  rm -rf help3
+  457  git clone https://github.com/jmos27/help3.git
+  458  ls
+  459  cd help3
+  460  make trex
+  461  make raptor
+  462  ./orderlogs
+  463  bin/orderlogs
+  464  bin/orderlogs testcases/all_new
+  465  bin/orderlogs -f testcases/all_new
+  466  make raptor
+  467  make spinosaurus
+  468  make trike
+  469  gdb bin/orderlogs
+  470  make spinosaurus
+  471  maketrex
+  472  make trex
+  473  bin/orderlogs -f testcases/all_new
+  474  bin/orderlogs
+  475  bin/orderlogs -f
+  476  bin/orderlogs -f testcases
+  477  make raptor
+  478  bin/orderlogs -f testcases/all_old
+  479  make spinosaurus
+  480  make trike
+  481  gdb bin/orderlog
+  482  gdb bin/orderlogs
+  483  make raptoe
+  484  make raptor
+  485  bin/orderlogs -f testcases/all_old
+  486  make raptor
+  487  bin/orderlogs -f testcases/short_bal
+  488  gdb bin/orderlogs
+  489  make stego
+  490  chmod +x ref_order
+  491  chmod +x ref_order
+  492  make stego
+  493  gdb bin/orderlogs
+  494  ls
+  495  rm -f help2/
+  496  rm -rf help2/
+  497  ls
+  498  rm -rf help3/
+  499  ls
+  500  git clone https://github.com/jmos27/help3.git
+  501  make trex
+  502  make trex
+  503  make trex
+  504  make spinosaurus
+  505  make trex
+  506  make trex
+  507  make raptor
+  508  make spinosaurus
+  509  make trike
+  510  gdb bin/orderlogs
+  511  bin/orderlogs -f all_new
+  512  make trex
+  513  bin/orderlogs -f testcases/all_new
+  514  bin/orderlogs
+  515  make trike
+  516  make raptor
+  517  make stego
+  518  chmod +x ./ref_order
+  519  make stegp
+  520  make stego
+  521  bin/orderlogs -f testcases/single_old
+  522  gdb bin/orderlogs
+  523  make stego
+  524  history
+  525  history > shell_logs.txt
